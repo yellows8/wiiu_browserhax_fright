@@ -9,7 +9,7 @@ Supported system-versions for "browserhax_fright_tx3g_wiiu.php"(Internet Browser
 * 5.4.0
 * 5.5.0
 
-To use this you must host the exploit script on a server, then you must setup wiiuhaxx_common as documented in that repo. If you're going to use libwiiu with your payload binary, then you must use a coreinit.h which actually supports your system-version.
+To use this you must host the exploit script on a server, then you must setup wiiuhaxx_common as documented in that repo. If you're going to use libwiiu with your payload binary, then you must use a coreinit.h which actually supports your system-version. The max size of the final payload(loader included) is 0x4000-bytes, so your input payload max size is a bit less than 0x4000-bytes(the script will throw an error if the size is too large).
 
 Note that issues occur when the final URL you use is too long, so you should keep it short like with the following: "http(s)://{server}/wiiuhaxx.php?sysver={version listed in wiiuhaxx_common}". This hasn't been debugged yet.
 
