@@ -1,4 +1,4 @@
-This repo contains Wii U Internet Browser exploit(s), for libstagefright vuln(s). This was designed for the Internet Browser, but this could be used with anything requesting MP4s over plaintext HTTP in theory(titles which use mvplayer.rpl), if one would update the payload heap addr/etc used in the source. This requires the following repo: https://github.com/yellows8/wiiuhaxx_common
+This repo contains Wii U Internet Browser exploit(s) under PowerPC userland, for libstagefright vuln(s). This was designed for the Internet Browser, but this could be used with anything requesting MP4s over plaintext HTTP in theory(titles which use mvplayer.rpl), if one would update the payload heap addr/etc used in the source. This requires the following repo: https://github.com/yellows8/wiiuhaxx_common
 
 This repo is based on a seperate repo, that repo is from November 2015.
 
